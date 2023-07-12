@@ -1,0 +1,115 @@
+{
+  "editor.fontFamily": "'JetBrains Mono'",
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.formatOnSave": true,
+  "explorer.autoReveal": true,
+  "gitlens.defaultDateLocale": null,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.autofetch": true,
+  "vim.useSystemClipboard": true,
+  "editor.inlineSuggest.enabled": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "workbench.sideBar.location": "right",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[python]": {
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "codesnap.containerPadding": "1rem",
+  "codesnap.showWindowControls": false,
+  "codesnap.shutterAction": "copy",
+  "codesnap.backgroundColor": "#ffffff",
+  "codesnap.boxShadow": "rgba(0, 0, 0, 0.55) 0px 0px 0px",
+  "codesnap.transparentBackground": true,
+  "workbench.colorTheme": "GitHub Dark Colorblind (Beta)",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.semi": false,
+  "window.zoomLevel": 1,
+  "editor.lineNumbers": "relative",
+  "vim.leader": "<space>",
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "r", "r"],
+      "commands": ["editor.action.rename"]
+    },
+    {
+      "before": ["ctrl+d"],
+      "after": ["ctrl+d", "z", "z"]
+    },
+    {
+      "before": ["ctrl+o"],
+      "after": ["ctrl+o", "z", "z"]
+    },
+    {
+      "before": ["<leader>", "`"],
+      "commands": ["workbench.action.togglePanel"]
+    },
+    {
+      "before": ["ctrl+u"],
+      "after": ["ctrl+u", "z", "z"]
+    },
+    {
+      "before": ["<Leader>", "k"],
+      "commands": [":tabnext"]
+    },
+    {
+      "before": ["<Leader>", "j"],
+      "commands": [":tabprev"]
+    },
+    {
+      "before": ["<Leader>", "t", "o"],
+      "commands": [":tabo"]
+    },
+    {
+      "before": ["<Leader>", "t", "c"],
+      "commands": [":wq"]
+    },
+    {
+      "before": ["<Leader>", "o"],
+      "commands": [":only"]
+    },
+    {
+      "before": ["<Leader>", "b"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
+    },
+    {
+      "before": ["<Leader>", "g"],
+      "commands": ["workbench.scm.focus"]
+    },
+    {
+      "before": ["<Leader>", "f"],
+      "commands": ["workbench.files.action.focusFilesExplorer"]
+    },
+    {
+      "before": ["<Leader>", "c"],
+      "commands": ["git.stageSelectedRanges"]
+    },
+    {
+      "before": ["<Leader>", "n"],
+      "commands": ["workbench.action.compareEditor.nextChange"],
+      "when": "isInDiffEditor && editorTextFocus"
+    },
+    {
+      "before": ["<Leader>", "p"],
+      "commands": ["workbench.action.compareEditor.previousChange"],
+      "when": "isInDiffEditor && editorTextFocus"
+    }
+  ],
+  "editor.minimap.enabled": false,
+  "settingsSync.ignoredSettings": [],
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
